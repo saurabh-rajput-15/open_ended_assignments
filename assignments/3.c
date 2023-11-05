@@ -8,7 +8,7 @@ struct library {
 };
 
 int main() {
-    struct library bookList[5]; // Array of structures to store details of five books
+    struct library bookList[5]; 
     
     printf("Enter details of five books:\n");
     for (int i = 0; i < 5; i++) {
